@@ -36,6 +36,9 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// --- Trust proxy (required for secure cookies behind Render's load balancer) ---
+app.set("trust proxy", 1);
+
 // --- Session configuration ---
 app.use(
   session({
