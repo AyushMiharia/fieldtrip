@@ -15,6 +15,7 @@
 **Video Link:** _coming soon_
 
 **Class Link:** https://www.khoury.northeastern.edu/
+
 Course: CS5610 – Web Development
 University: Northeastern University, Boston
 Semester: Spring 2026
