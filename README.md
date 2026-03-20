@@ -8,11 +8,17 @@
 
 **Live Demo:** https://fieldtrip.onrender.com
 
-**PPT Link:** _coming soon_
+**PPT Link:** https://docs.google.com/presentation/d/1nEbqm6wGVyhJvsfz9Qj6Q5Itr2LVGP_16gyWVzxpEwA/edit?usp=sharing
 
-**Document Link:** _coming soon_
+**Document Link:** https://docs.google.com/document/d/1Dd9h_HhzLoBJu5PGJiwVbJvbLOSGv-1YlYVILsRUaNA/edit?usp=sharing
 
 **Video Link:** _coming soon_
+
+**Class Link:** https://www.khoury.northeastern.edu/
+
+Course: CS5610 – Web Development
+University: Northeastern University, Boston
+Semester: Spring 2026
 
 ---
 
@@ -26,7 +32,7 @@ The project has a clean separation of concerns — **Ayush owns the activities m
 
 ## Screenshot
 
-![FieldTrip Screenshot](screenshot.png)
+![FieldTrip Screenshot](fieldtripss.jpeg)
 
 ---
 
