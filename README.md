@@ -12,7 +12,7 @@
 
 **Document Link:** https://docs.google.com/document/d/1Dd9h_HhzLoBJu5PGJiwVbJvbLOSGv-1YlYVILsRUaNA/edit?usp=sharing
 
-**Video Link:** _coming soon_
+**Video Link:** https://drive.google.com/drive/folders/1bgEDufLtQ-iDuKBPHBrh4hIs8k2qdCNR?usp=sharing
 
 **Class Link:** https://www.khoury.northeastern.edu/
 
