@@ -50,7 +50,7 @@ function ActivityList({ user }) {
 
   useEffect(() => {
     fetchActivities();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []); 
 
   const handleSearch = (overrideFilters) => {
     fetchActivities(overrideFilters, 1);
