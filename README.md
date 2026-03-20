@@ -26,7 +26,7 @@ The project has a clean separation of concerns — **Ayush owns the activities m
 
 ## Screenshot
 
-![FieldTrip Screenshot](fieldtripss.png)
+![FieldTrip Screenshot](fieldtripss.jpeg)
 
 ---
 
