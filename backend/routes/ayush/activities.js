@@ -287,3 +287,5 @@ router.delete("/:id", isAuthenticated, async (req, res) => {
 });
 
 module.exports = router;
+// // Cascade delete: remove all trips tied to this activity to avoid orphaned references
+// await db.collection("trips").deleteMany({ activityId: new ObjectId(req.params.id) });
