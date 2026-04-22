@@ -4,7 +4,7 @@
 
 **Authors:** Ayush Miharia & Siddharth Agarwal
 
-**Project:** Assignment 3 – Full Stack Web Application (React + Node + Express + MongoDB)
+**Project:** Assignment 4 – Full Stack Web Application (React + Node + Express + MongoDB)
 
 **Live Demo:** https://fieldtrip.onrender.com
 
