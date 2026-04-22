@@ -1,0 +1,130 @@
+.home-page {
+  min-height: calc(100vh - 60px);
+}
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 3rem 1.5rem;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(91, 138, 245, 0.08) 0%,
+    transparent 60%
+  );
+}
+
+.home-hero-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.home-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-tagline {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-bottom: 1.5rem;
+}
+
+.home-description {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.home-cta {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.home-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+}
+
+.home-browse-hint {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0 4rem;
+}
+
+.home-feature {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  text-align: center;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.home-feature:hover {
+  border-color: var(--color-border-hover);
+  transform: translateY(-3px);
+}
+
+.home-feature-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.home-feature h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-feature p {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}

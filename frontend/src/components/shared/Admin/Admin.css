@@ -1,0 +1,126 @@
+.admin-tabs {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.admin-tab-count {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+}
+
+.admin-search {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.admin-search input {
+  flex: 1;
+}
+
+.admin-results-header {
+  margin-bottom: 1rem;
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.admin-table th {
+  background: var(--color-bg-elevated);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.75rem 0.85rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.admin-table td {
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  vertical-align: middle;
+}
+
+.admin-table tbody tr:hover {
+  background: var(--color-bg-elevated);
+}
+
+.admin-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-row-num {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  width: 40px;
+}
+
+.admin-title {
+  font-weight: 600;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-location {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+}
+
+.admin-username {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.admin-rating-count {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.admin-self-label {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.badge-admin {
+  background: rgba(196, 120, 240, 0.15);
+  color: var(--color-culture);
+}
+
+@media (max-width: 768px) {
+  .admin-search {
+    flex-direction: column;
+  }
+
+  .admin-table {
+    font-size: 0.78rem;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 0.5rem;
+  }
+}
