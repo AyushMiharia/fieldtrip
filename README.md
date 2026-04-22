@@ -8,11 +8,11 @@
 
 **Live Demo:** https://fieldtrip.onrender.com
 
-**PPT Link:** _coming soon_
+**PPT Link:** (https://docs.google.com/presentation/d/1OxH5HREQCPoxssytscC6mga8J-YYZs0z2byiYIUCtGw/edit?usp=sharing)
 
-**Document Link:** _coming soon_
+**Document Link:** (https://docs.google.com/document/d/15NhSTsmo2auCfnKGFkDRkf2Yhj9Gg8ExPzDrAXs-oK0/edit?usp=sharing)
 
-**Video Link:** _coming soon_
+**Video Link:** (https://drive.google.com/drive/folders/1CLn3EK-byI5_kl_5USmS5pzGfGXjWgmb?usp=sharing)
 
 ---
 
